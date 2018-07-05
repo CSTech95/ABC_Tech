@@ -1,5 +1,5 @@
-# Clothing-Co.
-Fictional responsive website that sells clothes. (Front End)
+# Digital Marketing Agency
+Fictional responsive website that sells consulting services. (Front End)
 
 This application Utlizes:
 
