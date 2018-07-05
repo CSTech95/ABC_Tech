@@ -12,18 +12,23 @@
   <!-- The start of my header   -->
 <header>
   <h1 id="title">ABC Consulting</h1>
-
+  <!-- <img class ="headerImg" src="img/small-Devices/teamFists-mobile.jpeg" alt="" srcset=""> -->
+<picture>
+  <source srcset="img/small-Devices/teamFists-mobile.jpeg" media="(max-width: 480px)">
+  <source srcset="img/Tablets/roar.jpg" media="(max-width: 900px)">
+  <img srcset="img/small-Devices/teamFists-mobile.jpeg">
+</picture>
 </header>
 <!-- The end of my header -->
 
-<nav class="dealsSlide">
+<div class="dealsSlide">
   <ul>
     <li class="dealItems">15% off front-end debugging</li>
     <li class="dealItems">25% off Back-end debugging</li>
     <li class="dealItems">Free Consultation</li>
     <li class="dealItems">Stay tuned for more events</li>
   </ul>
-</nav>
+</div>
 
 <!-- The start of my carousel -->
 <div class="carousel">
